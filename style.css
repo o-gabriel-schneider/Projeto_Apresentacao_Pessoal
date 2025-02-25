@@ -7,7 +7,6 @@
 
 body {
     height: 100vh;
-    overflow: hidden;
     box-sizing: border-box;
     background-color: #000000fa; /*#000000e9 ; #000000f1*/
     color: #fffafa;
@@ -15,22 +14,19 @@ body {
 
 .apresentacao {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
-    align-content: center;
-    gap: 50px;
-    padding: 3% 0% 0%;
+    gap: 80px;
+    padding: 6% 0%;
 }
 
 .apresentacao__texto {
-    width: 580px;
-    display: flex;
-    flex-direction: column;
+    width: 615px;
 }
 
 .apresentacao__texto__titulo {
-    font-size: 34px;
-    font-family: "Krona One", sans-serif;
+    font-family: 'Krona One', sans-serif;
+    font-size: 33px;
     font-weight: 400;
     font-style: normal;
 }
@@ -40,65 +36,63 @@ body {
 }
 
 .apresentacao__texto__paragrafo {
+    font-family: 'Montserrat', sans-serif;
     font-size: 22px;
-    font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    margin-top: 25px;
-    margin-bottom: 40px;
+    margin: 40px 0px 40px;
 }
 
 .apresentacao__texto__links {
     display: flex;
     flex-direction: column;
-    gap: 12px;
-}
-
-.apresentacao__texto__links__botoesMenores {
-    display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 12px;
+    gap: 25px;
 }
 
-.apresentacao__texto__links__botoesMenores__decoracao {
-    background-color: #22d4fd;
-    width: 265px;
+.apresentacao__texto__links__subtitulo {
+    font-family: 'Krona One', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.apresentacao__texto__links__decoracao {
+    width: 400px;
     text-align: center;
-    padding: 25px 0px;
+    padding: 18px 0px;
     text-decoration: none;
-    color: #000000;
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
+    color: #f6f6f6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
     font-weight: 600;
-    border-radius: 16px;
-}
-
-.apresentacao__texto__links__botoesMaiores {
+    border: 3px solid #22d4fd;
+    border-radius: 8px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
-.apresentacao__texto__links__botoesMaiores__decoracao {
-    background-color: #22d4fd;
-    width: 535px;
-    text-align: center;
-    padding: 25px 0px;
-    text-decoration: none;
-    color: #000000;
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    border-radius: 16px;
+.apresentacao__texto__links__decoracao:hover {
+    background-color: #272727fa
 }
 
 .apresentacao__imagem {
-    max-width: 520px;
+    max-width: 480px;
     height: auto;
-    border-radius: 16px;
-    border-width: 3px;
-    border-style: outset;
-    border-color: #ffffffe6;
+    border: 3px inset #ffffffe6;
+    border-radius: 12px;
+}
+
+.rodape {
+    background-color: #22d4fd;
+    color: #000000fa;
+    text-align: center;
+    padding: 22px 0px;
+    font-family: 'Montsserat', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
 }
