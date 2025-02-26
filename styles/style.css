@@ -12,12 +12,34 @@ body {
     color: #fffafa;
 }
 
+.cabecalho {
+    padding: 3% 15% 0%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 85px;
+}
+
+.cabecalho__menu__links {
+    text-decoration: none;
+    color: #22d4fd;
+    font-family: 'Montsserat', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: normal;
+}
+
 .apresentacao {
     display: flex;
+    flex-direction: row;
     align-items: start;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 80px;
-    padding: 6% 0%;
+    padding: 6% 15%;
 }
 
 .apresentacao__texto {
@@ -38,7 +60,6 @@ body {
 .apresentacao__texto__paragrafo {
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     margin: 40px 0px 40px;
@@ -67,9 +88,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     font-weight: 600;
+    font-style: normal;
     border: 3px solid #22d4fd;
     border-radius: 8px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 15px;
@@ -96,3 +119,6 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+
+/* Fechamento CSS-->index.html ; Abertura CSS-->about.html */
+
