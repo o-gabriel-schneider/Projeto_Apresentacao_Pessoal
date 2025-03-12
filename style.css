@@ -13,12 +13,14 @@
     --h1_FontStyle: normal;
 
     --h2_FontFamily: "Roboto", sans-serif;
-    --h2_FontSize: 1.5rem;
+    --h2_FontSize: 1.6rem;
     --h2_FontWeight: 700;
     --h2_FontStyle: normal;
 
     --p-a_FontFamily: "Roboto", sans-serif;
-    --p-a_FontSize: 1.3125rem;
+
+    --p_FontSize: 1.3125rem;
+    --a_FontSize: 1.45rem;
 
     --p_FontWeight: 400;
     --a_FontWeight: 600;
@@ -39,7 +41,9 @@ body {
 }
 
 .cabecalho {
-    padding: 3% 14% 0%;
+    margin: auto;
+    padding: 3% 0 0 3.3%;
+    max-width: 62.5rem;
 }
 
 .cabecalho__menu {
@@ -55,7 +59,7 @@ body {
     color: var(--thirdColorTheme);
     font-family: var(--p-a_FontFamily);
     font-optical-sizing: auto;
-    font-size: var(--p-a_FontSize);
+    font-size: var(--a_FontSize);
     font-weight: var(--a_FontWeight);
     font-style: var(--p-a_FontStyle);
 }
@@ -93,7 +97,7 @@ body {
 .apresentacao__texto__paragrafo {
     font-family: var(--p-a_FontFamily);
     font-optical-sizing: auto;
-    font-size: var(--p-a_FontSize);
+    font-size: var(--p_FontSize);
     font-weight: var(--p_FontWeight);
     font-style: var(--p-a_FontStyle);
     margin: 1.875rem 0 0;
@@ -123,7 +127,7 @@ body {
     color: var(--secondColorTheme);
     font-family: var(--p-a_FontFamily);
     font-optical-sizing: auto;
-    font-size: var(--p-a_FontSize);
+    font-size: var(--a_FontSize);
     font-weight: var(--a_FontWeight);
     font-style: var(--p-a_FontStyle);
     border: 0.125rem solid var(--thirdColorTheme);
